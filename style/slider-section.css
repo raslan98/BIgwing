@@ -1,0 +1,132 @@
+/* 
+*
+* 
+* slider-section.css
+* @author - Raslan
+* @date - 20 August, 2022
+**/
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.row-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slider-section {
+    position: relative;
+    margin: 0;
+    background-image: linear-gradient(to right, #7e4cd7, #233378);
+    padding: 110px 50px 130px 60px;
+}
+.slider-section-desc {
+    flex: 1;
+}
+.slider-section-desc h2 {
+    margin: 0;
+    font-size: 40px;
+    color: #eeeeee;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+.slider-section p {  
+    color: #eeeeee;
+    line-height: 0.5;
+    font-size: 17px;
+}
+.slider-section img {
+    width: 70%;
+}
+.slider-section-img {
+    flex: 1;
+    position: relative;
+    z-index: 3;
+}
+.slider-section .slider-bg {
+    position: absolute;
+    bottom: -10px;
+    right: -115px;
+    width: 800px;
+    z-index: 1;
+}
+
+.count-container {
+    position: relative;
+    z-index: 9;
+    text-align: center;
+ }
+.counter {
+   display: inline-block;
+   padding: 10px;
+   border-radius: 50px;
+   background: #537bfe;
+   color: white;
+   height: 30px;
+    width: 30px;
+    font-size: 19px;
+}
+
+/* SLIDER SECTION-2 STARTS */
+.desc-card {
+    margin-top: 10px;
+    text-align: left;
+    display: inline-block;
+    border: 1px solid lightgray;
+    padding: 30px;
+}
+.desc-card p {
+    font-size: 17px;
+}
+.desc-card-image {
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    left: 23%;
+    width: 40px;
+}
+.desc-card-image img {
+    width: 60px;
+    border: 10px solid #7e4cd7;
+    border-radius: 50%;
+}
+.desc-card-content {
+    margin-top: 35px;
+    text-align: left;
+    position: relative;
+    left: 26%;
+}
+.desc-name {
+    font-size: 20px;
+}
+.desc-origin {
+    color: #2199b7;
+}
+/* SLIDER SECTION-2 ENDS */
+
+/* SLIDER-SECTION ONLINE - STARTS */
+.slider-wrapper {
+    position: relative;
+    z-index: 1;
+    
+  }
+   
+.slides-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    overflow-y: visible;
+    scroll-behavior: smooth;
+  }
+   
+.slide {
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+  }

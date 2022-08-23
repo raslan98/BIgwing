@@ -1,0 +1,29 @@
+/* 
+*
+* 
+* menu.css
+* @author - Raslan
+* @date - 20 August, 2022
+**/
+
+#menu ul {
+    list-style-type: none;
+}
+#menu li {
+    display: inline-block;
+}
+#menu li a {
+    text-decoration: none;
+    color: #eeeeee;
+    padding-right: 55px;
+    font-size: 16px;
+    font-weight: 400;
+}
+#menu i {
+    color: white;
+    font-size: 25px;
+}
+#menu .main-icon a {
+    font-weight: 700;
+    font-size: 20px;
+}

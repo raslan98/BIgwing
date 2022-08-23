@@ -1,0 +1,117 @@
+/* 
+*
+* 
+* section.css
+* @author - Raslan
+* @date - 20 August, 2022
+**/
+
+.section {
+    padding: 0 30px;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* WHITE BACKGROUND SECTION - STARTS */
+.section-type-1 {
+    text-align: center;
+}
+.section-type-1 h3 {
+    display: inline-block;
+    font-size: 35px;
+    border-bottom: 1px solid #feb544;
+    margin: 60px 100px 50px 100px;
+}
+.section-type-1 p {
+    font-size: 16px;
+    line-height: 0.5;
+}
+.section-type-1 img {
+    margin-bottom: 40px;
+}
+/* CLIENTS SECTION - STARTS */
+#clients h3 {
+    border-bottom: none;
+}
+/* CLIENTS SECTION - ENDS */
+
+/* WHITE BACKGROUND SECTION - ENDS */
+
+/* PURPLE BACKGROUND SECTION - STARTS */
+.section-type-2 {
+    text-align: center;
+    background-image: linear-gradient(to right, #7e4cd7, #233378);
+    color: white;
+    z-index: 1;
+    padding: 30px 30px;
+}
+.section-type-2 .wrapper h3 {
+    display: inline-block;
+    font-size: 35px;
+    border-bottom: 1px solid white;
+    margin-bottom: 100px;
+}
+.section-type-2 h3 {
+    display: inline-block;
+    font-size: 35px;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
+}
+.section-type-2 img {
+    margin-right: 15px;
+    border-radius: 20px;
+    width: 90%;
+}
+.section-type-2 h4 {
+    font-size: 25px;
+    line-height: 0;
+}
+.section-type-2 p {
+    font-size: 17px;
+    line-height: 0.5;
+}
+.card {
+    margin-bottom: 50px;
+}
+.background-image {
+    background-image: url(../image/service-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 230px;
+    padding-bottom: 100px;
+}
+/* CHOOSE-US SECTION */
+#choose-us h3 {
+    margin-bottom: 30px;
+}
+.inner-card {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.inner-card-img {
+    width: 70px;
+    text-align: right;
+    align-items: center;
+}
+.inner-card-image img {
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.inner-card-content {
+    position: relative;
+    bottom: 10px;
+    flex: 1;
+    text-align: left;
+    align-items: center;
+}
+.inner-card-content .content {
+    font-size: 30px;
+}
+/* CHOOSE-US SECTION */
+
+/* PURPLE BACKGROUND SECTION - ENDS */

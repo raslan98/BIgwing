@@ -1,0 +1,146 @@
+/* 
+*
+* 
+* button.css
+* @author - Raslan
+* @date - 20 August, 2022
+**/
+
+.primary-button {
+    color: white;
+    background-color: #feb544;
+    margin-top: 50px;
+    border: none;
+    font-size: 18px;
+    padding: 12px 40px;
+    border-radius: 25px;
+    transition: all linear 0.2s;
+}
+.secondary-button {
+    background-color: #a053f9;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 12px 40px;
+    border-radius: 5px;
+    margin-top: 35px;
+    transition: all linear 0.2s;
+}
+.primary-button:hover, .secondary-button:hover{
+    -webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+    cursor: pointer;
+    
+}
+.tertiary-button {
+    background-color: #ffca56;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.mg-btm {
+    margin-bottom: 80px;
+}
+
+/* ONLINE-BUTTON STARTS */
+.slide-arrow {
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 4rem;
+    background-color: #383a90;
+    border: none;
+    width: 4rem;
+    font-size: 1rem;
+    padding: 0;
+    cursor: pointer;
+    transition: opacity 100ms;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.slide-arrow:hover {
+    background-color: #feb544;
+}
+.slides-container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+ 
+.slides-container::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+  .slide-arrow:hover,
+  .slide-arrow:focus {
+    opacity: 1;
+}
+   
+  #slide-arrow-prev {
+    left: 0;
+}
+   
+  #slide-arrow-next {
+    right: 0;
+}
+
+/* ONLINE-BUTTON - ENDS */
+
+/* HEADER BUTTOON - STARTS */
+
+.slide-arrow-header {
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3rem;
+    background-color: #383a90;
+    border: none;
+    width: 3rem;
+    font-size: 1rem;
+    padding: 0;
+    cursor: pointer;
+    transition: opacity 100ms;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+}
+.slide-arrow-header:hover {
+    background-color: #feb544;
+}
+.slides-container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+ 
+.slides-container::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+  .slide-arrow-header:hover,
+  .slide-arrow-header:focus {
+    opacity: 1;
+}
+   
+  #slide-arrow-prev-header {
+    z-index: 0;
+    top: 650px;
+    left: 88px;
+}
+   
+  #slide-arrow-next-header {
+    z-index: 0;
+    top: 650px;
+    left: 32px
+}
+
+
+  

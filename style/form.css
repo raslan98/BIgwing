@@ -1,0 +1,51 @@
+/* 
+*
+* 
+* form.css
+* @author - Raslan
+* @date - 20 August, 2022
+**/
+
+#contact-us h3 {
+    border-bottom: none;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+#contact-us p {
+    margin-bottom: 60px;
+}
+#contact-us .cell-1 {
+    width: 50%;
+    text-align: left;
+}
+#contact-us .cell-2 {
+    text-align: left;
+    width: 100%
+}
+#contact-us .cell-2 input {
+    width: 97.5%;
+    height: 90px;
+}
+#contact-us .cell-1 label {
+    margin-bottom: 10px;
+}
+#contact-us .cell-1 select {
+    width: 98%;
+    height: 50px;
+    background-color: #f2f3f4;
+    border: transparent;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 10px;   
+}
+#contact-us input {
+    width: 95%;
+    height: 30px;
+    background-color: #f2f3f4;
+    border: transparent;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 10px;
+}

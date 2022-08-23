@@ -1,0 +1,88 @@
+/* 
+*
+* 
+* footer.css
+* @author - Raslan
+* @date - 20 August, 2022
+**/
+
+footer {
+    padding: 200px 30px 5px 30px;
+    background-image: url(../image/footer-bg.png);
+    color: white;
+}
+/* FOOTER-TOP-PART - STARTS */
+footer h3 {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer li {
+    text-align: left;
+    line-height: 2;
+}
+.footer-content {
+    flex: 1;
+    text-align: left;
+}
+.footer-head {
+    border-bottom: 2px solid #feb544;
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.visibility-hidden {
+    visibility: hidden;
+}
+/* FOOTER-TOP-PART - ENDS */
+/* FOOTER-BOTTOM-PART - STARTS */
+.footer-icon {
+    flex: 1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer-search {
+    flex: 2;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.footer-icon span {
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+.footer-icon i {
+    position: relative;
+    top: 7px;
+    left: 9px;
+    font-size: 20px;
+    color: #7e4cd7;
+}
+.footer-search label {
+    font-size: 18px;
+    margin-right: 50px;
+}
+.footer-search input {
+    font-size: 17px;
+    padding: 10px;
+    width: 35%;
+    height: 18px;
+    margin-right: 10px;
+}
+.copyright {
+    text-align: center;
+    margin: 0;
+}
+hr {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+/* FOOTER-BOTTOM-PART - ENDS */

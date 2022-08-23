@@ -1,0 +1,17 @@
+/* 
+*
+* 
+* base.css
+* @author - Raslan
+* @date - 20 August, 2022
+**/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    padding: 15px 0 5px 0;
+    background-image: linear-gradient(to right, #7e4cd7, #233378);
+}
